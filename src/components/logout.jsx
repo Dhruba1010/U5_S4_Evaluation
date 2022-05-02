@@ -14,5 +14,5 @@ export const Logout = () => {
       dispatch(logout(false));
       navigate("/")
     },[])
-    return <></>;
+    return <>Logout</>;
   };

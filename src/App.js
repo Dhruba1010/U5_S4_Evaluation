@@ -15,13 +15,13 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Link className="nav-home" to="/">
+        <Link className="nhome" to="/">
           Home
         </Link>
         {/* Show either login or logout below */}
         {status? 
-        <Link className="nav-logout" to = "/logout">Logout</Link>:
-        <Link className="nav-login" to = "/login">Login</Link>
+        <Link className="nlogout" to = "/logout">Logout</Link>:
+        <Link className="nlogin" to = "/login">Login</Link>
         }
       <Routes>
         <Route path = "/" element = {<Home/>}/>
