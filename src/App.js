@@ -1,13 +1,13 @@
 
 import './App.css';
 import {Routes,Route} from 'react-router-dom';
-import { Home } from '../../u5s4/src/components/Home';
-import { Login } from '../../u5s4/src/components/Login';
+import { Home } from '../src/components/Home';
+import { Login } from '../src/components/Login';
 import {Link} from 'react-router-dom';
-import { Logout } from "./components/Logout";
-import { NewOrder } from "../../u5s4/src/components/NewOrder";
-import { Orders } from "../../u5s4/src/components/Order";
-import { ProtectedRoute } from "../../u5s4/src/components/ProtectedRoute";
+import { Logout } from "../src/components/Logout";
+import { NewOrder } from "../src/components/NewOrder";
+import { Orders } from "../src/components/Order";
+import { ProtectedRoute } from "../src/components/ProtectedRoute";
 import { useSelector } from 'react-redux';
 
 function App() {
